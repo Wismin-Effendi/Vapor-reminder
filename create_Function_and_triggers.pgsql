@@ -27,6 +27,8 @@ reminders-# \d
 
 -----
 
+-- we need to create string like:  NOTIFY test_channel, 'users_INSERT'
+
 create function notify_trigger() returns trigger AS $$
 DECLARE 
 BEGIN
